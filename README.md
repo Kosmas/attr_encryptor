@@ -17,7 +17,7 @@ Encrypting attributes has never been easier:
 
 ### Your database
 
-add a `encrypted_ssn`, `encrypted_ssn_salt`, `encrypted_ssn_iv`. All of
+add an `encrypted_password`, `encrypted_password_salt`, `encrypted_password_iv`. All of
 them will be populated automatically
 
     create_table :google_apps_admins do |t|
