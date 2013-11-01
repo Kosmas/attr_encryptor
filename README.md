@@ -28,6 +28,8 @@ them will be populated automatically
       t.string :domain
       t.timestamps
     end
+    
+NOTE: The names __should__ have the encrypted before the actual field name
 
 ### Your model
 
